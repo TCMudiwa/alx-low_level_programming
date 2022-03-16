@@ -7,7 +7,7 @@ int main(void)
 {
 char ch = 'a';
 int x = 0;
-while (x <= 26)
+while (x < 26)
 {
 putchar(ch);
 ch++;
