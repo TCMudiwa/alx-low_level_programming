@@ -13,12 +13,12 @@ putchar(ch);
 ch++;
 x++;
 }
-char CH = 'A';
+ch = 'A';
 x = 0;
 while (x < 26)
 {
-putchar(CH);
-CH++;
+putchar(ch);
+ch++;
 x++;
 }
 putchar('\n');
