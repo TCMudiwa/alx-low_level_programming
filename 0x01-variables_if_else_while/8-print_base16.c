@@ -5,12 +5,18 @@
 */
 int main(void)
 {
-int n = 0;
-int ip = 0;
-while (n < 16)
+int n = 48;
+char ch = 'a';
+while (n < 58)
 {
-putchar(ip);
-ip++;
+putchar(n);
+n++;
+}
+n = 0;
+while (n < 6)
+{
+putchar(ch);
+ch++;
 n++;
 }
 putchar('\n');
