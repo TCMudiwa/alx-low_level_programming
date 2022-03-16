@@ -14,7 +14,7 @@ putchar(ch);
 ch++;
 x++;
 }
-else if (26 < 52 && 52 < x)
+if (26 < 52 && 52 < x)
 {
 putchar(CH);
 CH++;
