@@ -1,0 +1,18 @@
+#include <stdio.h>
+/**
+*main - prints all numbers of base 16 in lower case using putchar
+* Return: zero if all is well
+*/
+int main(void)
+{
+int n = 0;
+int ip = 0;
+while (n < 16)
+{
+putchar(ip)
+ip++;
+n++;
+}
+putchar('\n');
+return (0);
+}
