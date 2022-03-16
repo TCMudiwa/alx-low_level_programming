@@ -8,14 +8,21 @@ int main(void)
 char ch = 'a';
 char CH = 'A';
 int x = 0;
-while (x < 26)
+if (x < 26)
 {
 putchar(ch);
-putchar(CH);
 ch++;
+x++;
+}
+else if (x > 26 < 52)
+{
+putchar(CH);
 CH++;
 x++;
 }
+else
+{
 putchar('\n');
+}
 return (0);
 }
