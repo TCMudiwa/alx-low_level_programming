@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+ *main - print alphabet without q and e
+*Return: always correct if zero
+*/
+int main(void)
+{
+char ch = 'a';
+int x = 0;
+while (x < 26)
+{
+if (ch != q && ch != e)
+putchar(ch);
+ch++;
+x++;
+}
+putchar('\n');
+return (0);
+}
