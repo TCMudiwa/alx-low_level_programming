@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-*main - print _putchar
+*main - print putchar
 *Return: Zero if correct
 */
 int main(void)
 {
-char chaine[] = _"_putchar\n";
+char chaine[] = "_putchar";
 int i = 0;
-while (chaine[i])
+while (chaine[i] != '\0')
 {
 _putchar(chaine[i]);
 i++;
