@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-char chaine[] = "_putchar";
+char chaine[] = "_putchar\n";
 int i = 0;
 while (chaine[i] != '\0')
 {
