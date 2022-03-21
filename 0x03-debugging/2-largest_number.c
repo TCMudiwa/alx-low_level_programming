@@ -12,7 +12,7 @@ int largest;
 if (a >= b && a >= c)
 
 largest = a;
-printf("largest = %d", a);
+printf("%d is the largest number", a);
 
 if (b >= a && b >= c)
 
