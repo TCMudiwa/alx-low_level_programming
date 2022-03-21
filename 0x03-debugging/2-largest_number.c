@@ -24,7 +24,7 @@ if (c > b && c > a)
 
 largest = c;
 printf("largest = %d", c);
-  
- return (0);
+
+return (0);
 }
 
