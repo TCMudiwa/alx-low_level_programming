@@ -24,5 +24,5 @@ else
 largest = c;
 printf("largest = %d", c);
 }
-return (largest);
+return (0);
 }
