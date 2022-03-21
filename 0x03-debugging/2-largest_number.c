@@ -22,7 +22,7 @@ printf("largest = %d", b);
 else
 {
 largest = c;
-printf("largest = %d", c);
+
 }
-return (0);
+return (largest);
 }
