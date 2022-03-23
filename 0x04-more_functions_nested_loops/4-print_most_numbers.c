@@ -9,8 +9,8 @@ int i;
 i = 0;
 while (i <= 9)
 {
+  putchar(i);
 if (i != 2 && i != 4)
-_putchar(i);
  i++;
 _putchar('\n');
 }
