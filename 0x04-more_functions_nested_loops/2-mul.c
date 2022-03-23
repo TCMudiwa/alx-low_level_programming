@@ -10,5 +10,5 @@ int mul(int a, int b)
 int product;
 product  = a * b;
 printf("%d", product);
-return (0);
+return (product);
 }
