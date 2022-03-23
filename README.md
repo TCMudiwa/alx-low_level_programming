@@ -1,0 +1,1 @@
+The beginnging of C programming and hopefully my full on code journey!
