@@ -11,17 +11,17 @@ int i;
 i = 1;
 while (i <= 100 && !0)
 {
-if (i % 3 == 0 && i != 0)
+if (i % 3 == 0 && i % 5 == 0 && i != 0)
 {
-printf("Fizz ");
+printf("FizzBuzz ");
 }
 else if (i % 5 == 0 && i != 0)
 {
 printf("Buzz ");
 }
-else if (i % 3 == 0 && i % 5 == 0 && i != 0)
+else if (i % 3 == 0 && i != 0)
 {
-printf("FizzBuzz ");
+printf("Fizz ");
 }
 else
 {
