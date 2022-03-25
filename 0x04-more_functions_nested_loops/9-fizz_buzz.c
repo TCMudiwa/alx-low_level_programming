@@ -8,7 +8,7 @@
 int main(void)
 {
 int i;
-i = 0;
+i = 1;
 while (i <= 100 && !0)
 {
 if (i % 3 == 0 && i != 0)
