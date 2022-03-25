@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *print_diagonal - draws diagonal line
  *@n: number of times
@@ -13,7 +14,7 @@ while (line < n)
 {
 for (spaces = 0; spaces < line; spaces++)
 {
-_putchar(' ');
+_putchar('c');
 }
 _putchar('\\');
 _putchar('\n');
