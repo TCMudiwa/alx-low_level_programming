@@ -15,7 +15,7 @@ printf("%d", j);
 j++;
 }
 i++;
-}
 _putchar('\n');
+}
 return;
 }
