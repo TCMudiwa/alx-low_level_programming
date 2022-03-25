@@ -6,9 +6,10 @@
 void print_most_numbers(void)
 {
 int c;
-for (c = 0; c <= 9; c++)
+char numbers = "01356789";
+for (c = 0; c <= 1; c++)
 {
-_putchar(c);
+_putchar(numbers);
 }
 _putchar('\n');
 return;
