@@ -14,7 +14,7 @@ while (line < n)
 {
 for (spaces = 0; spaces < line; spaces++)
 {
-_putchar('c');
+_putchar(' ');
 }
 _putchar('\\');
 _putchar('\n');
