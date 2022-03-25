@@ -5,7 +5,7 @@
  */
 void print_most_numbers(void)
 {
-int c;
+int c = 0;
 char numbers = c;
 for (c = 0; c <= 9; c++)
 {
