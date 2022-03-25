@@ -1,10 +1,11 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * fizz_buzz - prints numbers 0 to 100 if multiple of 3 fizz of 5 buzz of
+ *fizz_buzz - prints numbers 0 to 100 if multiple of 3 fizz of 5 buzz of
  *both fizzbuzz
  *Return: zero
  */
-void fizz_buzz(void)
+int main(void)
 {
 int i;
 i = 0;
@@ -28,5 +29,5 @@ printf("%d", i);
 }
 i++;
 }
-return;
+ return(0);
 }
