@@ -11,8 +11,7 @@ while (i < 10)
 j = 0;
 while (j <= 14)
 {
-printf("%d", j);
-printf('\n');
+printf("%d\n", j);
 j++;
 }
 i++;
