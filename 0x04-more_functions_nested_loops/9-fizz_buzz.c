@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *fizz_buzz - prints numbers 0 to 100 if multiple of 3 fizz of 5 buzz of
+ *main - prints numbers 0 to 100 if multiple of 3 fizz of 5 buzz of
  *both fizzbuzz
  *Return: zero
  */
@@ -29,5 +29,6 @@ printf("%d ", i);
 }
 i++;
 }
+printf("\n");
 return (0);
 }
