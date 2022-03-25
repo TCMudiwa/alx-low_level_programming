@@ -12,9 +12,9 @@ j = 0;
 while (j <= 14)
 {
 printf("%d", j);
+printf('\n');
 j++;
 }
-_putchar('\n');
 i++;
 }
 return;
