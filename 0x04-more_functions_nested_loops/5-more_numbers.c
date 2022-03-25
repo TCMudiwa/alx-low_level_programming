@@ -14,8 +14,9 @@ while (j <= 14)
 printf("%d", j);
 j++;
 }
- _putchar('\n');
+_putchar('\n');
 i++;
 }
+ _putchar('\n');
 return;
 }
