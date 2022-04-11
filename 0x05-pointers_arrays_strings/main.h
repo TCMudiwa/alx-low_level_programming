@@ -1,5 +1,6 @@
 #ifndef _MAIN_H_
 #define _MAIN_H
+void rev_string(char *s);
 void print_rev(char *s);
 int _putchar(char);
 void reset_to_98(int *n);
