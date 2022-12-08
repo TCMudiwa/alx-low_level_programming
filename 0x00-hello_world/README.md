@@ -1,0 +1,1 @@
+Introduction to C code. writing scripts for different c devops functions.
