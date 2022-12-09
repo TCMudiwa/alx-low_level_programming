@@ -1,4 +1,4 @@
-#include <std.io>
+#include <stdio.h>
 /**
 *main - prints a phrase
 *Return: Always Zero
