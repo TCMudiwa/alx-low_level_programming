@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 /**
 * main - prints size of various types
@@ -9,6 +10,7 @@ int inttype;
 long longtype;
 long long longlongtype;
 char chartype;
+float floattype;
 printf("Size of a char: %zu byte(s)\n", sizeof(chartype));
 printf("Size of a int:  %zu byte(s)\n", sizeof(inttype));
 printf("Size of a long int: %zu byte(s)\n", sizeof(longtype));
