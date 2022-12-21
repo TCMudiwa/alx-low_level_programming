@@ -5,12 +5,12 @@
 */
 void print_alphabet(void)
 {
-char y += 'a';
+char y = 'a';
 int i;
-for (i=0; i < 26; i++)
+for (i = 0; i < 26; i++)
 {
 _putchar(y + i);
 }
 _putchar(10);
-return (0)
+return (0);
 }
