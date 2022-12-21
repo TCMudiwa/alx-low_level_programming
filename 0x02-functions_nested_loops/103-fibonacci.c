@@ -20,6 +20,6 @@ second_number = counter;
 if (counter % 2 == 0)
 result = result + counter;
 }
-printf("%lu", result);
+printf("%lu\n", result);
 return (0);
 }
