@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
 * main - tell if number is greater than, less than or equal to zero
 * Return: ALways zero
