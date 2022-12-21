@@ -9,9 +9,9 @@ char alphabet;
 char ALPHA;
 for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
 {
-    putchar(alphabet);
+putchar(alphabet);
 }
-for (ALPHA = 'A'; ALPHA <= 'Z'; ALPHA   ++)
+for (ALPHA = 'A'; ALPHA <= 'Z'; ALPHA++)
 {
 putchar(ALPHA);
 }
