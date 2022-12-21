@@ -6,7 +6,6 @@
 */
 int main(void)
 {
-int counter;
 unsigned long i, j, k, j1, j2, k1, k2;
 j = 1;
 k = 2;
