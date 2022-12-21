@@ -13,7 +13,7 @@ for (j =  0  ; j <= 99  ; j++)
 if (alphabet < j)
 {
 putchar((alphabet / 10) + '0');
-putchar((alphabet % 10) + 0);
+putchar((alphabet % 10) + '0');
 putchar(' ');
 putchar((j / 10) + '0');
 putchar((j % 10) + '0');
