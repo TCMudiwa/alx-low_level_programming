@@ -12,5 +12,4 @@ for (i = 0; i < 26; i++)
 _putchar(y + i);
 }
 _putchar(10);
-return (0);
 }
